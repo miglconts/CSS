@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+}
+/* estilos correspondientes a heaader */
+.cabeza{
+    background-color: #fffffff1;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.navegar { 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.navigation ul {
+    font-variation-settings: 'wght' 600, 'wdth' 90;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: dimgray;
+    padding: .5rem 1rem;
+    margin: .2rem .5rem;
+}
+
+.navigation ul li a:hover {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 81, 255, 0.9);
+    border-radius: 10px;
+}
+
+.logo{
+    font-variation-settings: 'wght' 700, 'wdth' 95;
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    font-size: 2.5rem;
+    padding-top: 1.5rem ;
+}
+/* estilos correspondientes a heaader */
+
+.Top {
+    display: flex;
+}
+
+.info {
+    padding: 1rem;
+    width: 50%;
+}
+    .info h1 {
+        color: rgb(6, 45, 129);
+        font-size: 5rem;
+        line-height:5.8rem ;
+        margin-bottom: 2rem;
+    }
+    .info p {
+        color: dimgray;
+        font-size: 1.5rem;
+    }
+.imagen{
+    background-color: rgb(65, 92, 92);
+    background-size: cover;
+    width: 50%;
+    height: 800px;
+}
+.imagen{
+    background-image: url(/Images/doctor-mako-YeTNPJQW8Yo-unsplash.jpg);
+    background-size: cover;
+    background-position: center top;
+}
