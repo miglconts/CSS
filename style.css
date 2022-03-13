@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    src: url(./Open_Sans/);
 }
 body {
     width: 100%;
@@ -76,7 +76,7 @@ body {
     background-size: cover;
     width: 50%;
     height: 900px;
-    background-image: url(/Images/doctor-mako-YeTNPJQW8Yo-unsplash.jpg);
+    background-image: url(./Images/doctor-mako-YeTNPJQW8Yo-unsplash.jpg);
     background-position: center top;
 }
 /* botones de la seccion de fotografia principal */
@@ -239,7 +239,7 @@ section {
     background-size: cover;
     width: 50%;
     height: 1100px;
-    background-image: url(/Images/mujer-2.webp);
+    background-image: url(./Images/mujer-2.webp);
     background-position: center top;
 }
 
@@ -392,7 +392,7 @@ input[id^="spoiler"]:checked + .iconoPrep  {
         background-size: cover;
         width: 50%;
         height: 1100px;
-        background-image: url(/Images/malenurse1.jpg);
+        background-image: url(./Images/malenurse1.jpg);
         background-position: center top;
     }
 
