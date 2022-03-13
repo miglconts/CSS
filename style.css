@@ -3,7 +3,7 @@
     src: url(Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 body {
-    width: 90%;
+    width: 100%;
     max-width: 1500px;
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
@@ -42,7 +42,6 @@ body {
 .navigation ul li a:hover {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 81, 255, 0.9);
-
 }
 
 .logo{
@@ -317,3 +316,146 @@ input[id^="spoiler"]:checked + .iconoPrep  {
     border-width: 1px;
     border-color: rgb(222, 240, 255);
 }
+
+.tarjeta2 {
+    display: flex;
+    width:35%;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.877);
+    border-width: .2rem;
+    border-color: rgb(240, 241, 255);
+    align-items:center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px rgba(9, 75, 161, 0.144);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom:1rem;
+    margin-bottom: 2rem;
+}
+
+    .datosContact{
+        width: 50%;
+    }
+
+    .tarjeta2 h2{
+        color: rgb(6, 45, 129);
+        font-size:1.4rem;
+        font-variation-settings: "wght" 500, 'wdth' 100;
+        margin-bottom: 0rem;
+    }
+    .tarjeta2 h3{
+        margin-top: 0;
+        color: dimgray;
+        font-size:1.1rem;
+        font-variation-settings: "wght" 550, 'wdth' 100;
+        
+    }
+    .iconoTarjeta2 {
+        align-items: center;
+        background-color: rgba(6, 45, 129, 0.041);
+        border-radius: .5rem;
+        padding: 1rem;
+        color: rgb(6, 45, 129);
+        width: 35px;
+        font-size: 2.2rem;
+        text-align: center;
+        margin-right: 1rem;
+    }
+
+
+    .botonContact {
+        display: block;
+        color: dimgray;
+        background-color: rgba(6, 45, 129, 0.041);
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .botonContact:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 81, 255, 0.9);
+    }
+
+    .imagen3{
+        background-color: rgb(65, 92, 92);
+        background-size: cover;
+        width: 50%;
+        height: 1100px;
+        background-image: url(/Images/malenurse1.jpg);
+        background-position: center top;
+    }
+
+.foot{
+    height:250px; 
+    background-color: rgba(0, 81, 255, 0.055);
+    padding: 2rem 5rem;
+    display: flex;
+}
+
+.vacuna{
+    width: 50%;
+    height:100px;
+    margin-right: .5rem;
+    align-items: top;
+}
+    .vacuna h2{
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        text-decoration: none;
+        color: rgb(0, 81, 255);
+        font-size: 2rem;
+        padding-top: 0rem ;
+        margin-bottom: 2rem;
+    }
+    .vacuna p{
+        width: 50%;
+        font-variation-settings: 'wght' 500, 'wdth' 100;
+        text-decoration: none;
+        color: dimgray;
+        font-size: 1.3rem;
+        margin-top: 0rem ;
+    }
+
+
+    .datoFoot{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items: top right;
+        width: 50%;
+    }
+    .footerDato{
+        width: 25%;
+        height:auto;
+    }
+    .footerDato h2{
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        text-decoration: none;
+        color: rgb(0, 81, 255);
+        font-size: 2rem;
+        padding-top: 1rem ;
+        margin-bottom: 2rem;
+        line-height: 1rem;
+    }
+    .footerDato p{
+        width: 100%;
+        font-variation-settings: 'wght' 500, 'wdth' 100;
+        text-decoration: none;
+        color: dimgray;
+        font-size: 1.3rem;
+        margin-top: 0rem ;
+        line-height: 2.5rem;
+    }
+
+
+
