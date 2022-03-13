@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url("./Open_Sans/");
+    src: url(./Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 body {
     width: 100%;
@@ -416,7 +416,7 @@ input[id^="spoiler"]:checked + .iconoPrep  {
         margin-bottom: 2rem;
     }
     .vacuna p{
-        width: 50%;
+        width: 30%;
         font-variation-settings: 'wght' 500, 'wdth' 100;
         text-decoration: none;
         color: dimgray;
