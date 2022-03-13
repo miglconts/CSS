@@ -1,2 +1,2 @@
 # CSS
- Launch X
+https://miglconts.github.io/CSS/
